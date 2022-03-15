@@ -1,0 +1,68 @@
+h1 {
+    color: #FADE00;
+    margin-left: 600px;
+}
+.cabecalho {
+    background-color: #44007C ;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Permanent Marker', cursive;
+} 
+.gred {
+display: flex ;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+p.h2{
+    text-align: center;
+ 
+}
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #007B7D;
+    
+    
+    
+}
+p {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #007B7D;
+}
+body{
+    background-color:#00FAA8
+}
+.menu {
+    
+    font-family: 'Permanent Marker', cursive;
+    
+    
+ 
+}
+a:link{ color: white; }
+a:visited{ color: #FADE00 }
+
+.item {
+    position: relative;
+    margin-right: 20px;
+
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+
+    opacity: 0.33;
+}
+
+
+
+ 
